@@ -1,0 +1,3 @@
+Name1 200
+Name2 100
+Name3 0
