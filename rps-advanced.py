@@ -28,7 +28,7 @@ def main_menu():
 
 def user_input_validation(game_options):
     while True:
-        user_input = input("\n> ").strip()
+        user_input = input("\n> ").strip().lower()
         options = ["!exit", "!rating", "!menu", "!games"] + game_options
 
         if user_input in options:
