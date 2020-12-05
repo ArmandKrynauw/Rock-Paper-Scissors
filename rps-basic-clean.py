@@ -3,7 +3,7 @@ import random
 
 def user_input_validation(game_options):
     while True:
-        user_input = input("\n> ").strip()
+        user_input = input("\n> ").strip().lower()
         options = ["!exit", "!rating"] + game_options
 
         if user_input in options:
