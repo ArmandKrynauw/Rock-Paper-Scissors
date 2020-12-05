@@ -97,7 +97,7 @@ def output_match_results(game_status, computer_choice):
 
 def main_program():
     user_name = input("Enter your name: ")
-    print(f"Hello, {user_name}")
+    print(f"\nHello, {user_name}")
 
     user_rating = get_user_rating(user_name)
     game_options = input("\nEnter game options. (e.g. rock,paper,scissors) ").strip().split(",")  # User enters the game options and it gets split into a list
